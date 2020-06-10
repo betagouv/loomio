@@ -6,5 +6,9 @@
     "build": "cd vue && npm run build",
     "install": "cd vue && npm ci"
   },
-  "cacheDirectories": ["vue/node_modules"]
+  "cacheDirectories": ["vue/node_modules"],
+  "engines": {
+    "node": "12",
+    "npm": "6"
+  }
 }
