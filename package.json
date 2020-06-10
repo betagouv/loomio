@@ -1,0 +1,9 @@
+{
+  "name": "loomio-front",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "cd vue && npm run build",
+    "install": "cd vue && npm ci"
+  }
+}
