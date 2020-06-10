@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "build": "cd vue && npm run build",
-    "install": "cd vue && npm ci"
+    "install": "cd vue && ls node_modules/.bin && npm ci"
   },
   "cacheDirectories": ["vue/node_modules"],
   "engines": {
